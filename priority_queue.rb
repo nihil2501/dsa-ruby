@@ -121,7 +121,7 @@ class Heap
       end
     end
 
-    def in_bounds(i)
+    def in_bounds?(i)
       head_i <= i && i <= tail_i
     end
 
